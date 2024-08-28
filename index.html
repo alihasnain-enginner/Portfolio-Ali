@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type "x-icon" href="WhatsApp Image 2024-08-28 at 06.13.17_91d83948.jpg" <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                        class="fa-brands fa-airbnb"></i><i class="fa-brands fa-square-web-awesome"></i><i
+                        class="fa-brands fa-wirsindhandwerk"></i></h1>
+                <!-- <img class="logo" src="logo.png" alt="Logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICE</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>FRONTEND WEB DEVELOPER</p>
+            <h1>HI, I'm <span>Ali Hasnain</span><br> From Pakistan</h1>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Ali Hasnain profile pic.jpg" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <div class="ali">
+                        <p>I’m a Software Engineering student at COMSATS University, Sahiwal, passionate about web
+                            development and UI/UX design. My skills include HTML, CSS, JavaScript, Tailwind CSS,
+                            Bootstrap, React.js, WordPress, and GitHub. I create innovative, user-friendly digital
+                            solutions. Explore my portfolio and reach out for collaboration.
+
+                        </p>
+                    </div>
+                    <div class="tabtitles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web/App Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span> Innovative Solutions </span><br>Creative and effective problem-solving</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>Web Developer Intern at Prodigy Info Tech</li>
+                            <li><span>2021-2024</span><br>Frontend Developer at Fiverr & Upwork</li>
+                            <li><span>2019-2024</span><br>Office Management & Data Entery</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Matric from SPS School</li>
+                            <li><span>2021-2023</span><br>Fsc Pre-Engineering from PGC Okara</li>
+                            <li><span>2023-2027</span><br>Software Engineering from CUI Sahiwal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Specializing in creating high-performance websites with modern design and optimal functionality
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="service-item">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Creating engaging and user-friendly designs that enhance functionality and drive user
+                        satisfaction</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="service-item">
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Innovative Solution</h2>
+                    <p>Delivering unique and impactful designs that address complex challenges with creativity</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">MY Work</h1>
+            <div class="ali">
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Untitled design (15).png" alt="">
+                        <div class="layer">
+                            <h3>Fitness & Gym Web</h3>
+                            <p>Transform your body. Elevate your lifestyle. Fitness unleashed.</p>
+                            <a href="https://alihasnain-enginner.github.io/gym-Ali-website/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">MY Work</h1>
+            <div class="ali">
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Social Media Apps</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, iste?</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div> -->
+                    <div class="work">
+                        <img src="Untitled design (16).png" alt="">
+                        <div class="layer">
+                            <h3>Glowing Skin Web</h3>
+                            <p>Radiant beauty. Flawless skin. Glow from within.</p>
+                            <a href=" https://alihasnain-enginner.github.io/Skin-Glowing-Ali-website/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Untitled design (17).png" alt="">
+                        <div class="layer">
+                            <h3>Travel & Tour Web</h3>
+                            <p>Explore the world. Unforgettable adventures. Discover your journey.</p>
+                            <a href=" https://alihasnain-enginner.github.io/Travel-with-Ali-website/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Untitled design (18).png" alt="">
+                        <div class="layer">
+                            <h3>Restaurant & Food Web</h3>
+                            <p>Savor the flavor. Delight in every bite. Culinary perfection.</p>
+                            <a href="https://alihasnain-enginner.github.io/Restaurant-Website/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Untitled design (19).png" alt="">
+                        <div class="layer">
+                            <h3>University Web</h3>
+                            <p>Empowering minds. Shaping futures. Academic excellence.</p>
+                            <a href=" https://alihasnain-enginner.github.io/Comsats-University-Ali-Website/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Untitled design (20).png" alt="">
+                        <div class="layer">
+                            <h3>Car Rental Web</h3>
+                            <p>Drive your dreams. Effortless travel. Freedom on wheels.</p>
+                            <a href="https://alihasnain-enginner.github.io/Car-Rentel-Ali-website/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="#" class="btn">See More</a> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>7867alihasnain@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0317-6638008</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100045316533931&mibextid=jRoKGi"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/ali_hasnain7867?t=fz8Cx5YC8_WlnSqAqeylqA&s=09"><i
+                                class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/ali_hasnain7867?igsh=MTBzYncxdDNrenA4cw=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/alihasnain-enginner"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.snapchat.com/add/alihasnain146?share_id=ax_WjVj6T4&locale=en-PK"><i
+                                class="fa-brands fa-snapchat"></i></a>
+                        <a href="https://www.linkedin.com/in/ali-hasnain-3994b9247
+
+                        "><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Cv Ali.png" download class="btn1">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2024 All rights reserves | Ali Hasnain</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzn7midAhxxm0bJ-EQVMY1DdLFYepVUcMUO8bmYIWowGqn_z7JcmRCPz_0P70PCd6SQrg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
